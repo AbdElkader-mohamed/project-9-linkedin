@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f2ef;
+    height: 100vh;
+    position: relative;
+}
+a {
+    text-decoration: none;
+    transition: .2s;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -ms-transition: .2s;
+    -o-transition: .2s;
+}
+a:hover {
+    text-decoration: underline;
+}
+header {
+    
+    margin:10px 10px 10px 30px;
+}
+.container {
+    margin: 0 auto ;
+    max-width: 1250px;
+}
+.container h1 {
+    font-weight: 400;
+    font-size: 32px;
+    padding-bottom:24px ;
+    text-align: center;
+}
+.form {
+    width: 410px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 24px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.form input {
+    width: 100%;
+    padding: 9px 50px 9px 8px;
+    border: none;
+    outline: none;
+    border: 1px solid #00000099;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+.form form label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #00000099;
+}
+.form form div:last-of-type {
+    position: relative;
+}
+.form form div:last-of-type span {
+    position: absolute;
+    right: 6px;
+    bottom:7px;
+    color: #00000099;
+    cursor: pointer;
+}
+.form form div:last-of-type span:hover {
+    text-decoration: underline;
+}
+.form form .pass{
+    margin-top: 20px;
+}
+.form form > p {
+    text-align: center;
+    font-size: 13px;
+    color: #00000099;
+    margin:20px 0 ;
+    padding: 0 16px;
+    line-height: 1.5;
+}
+.form form > p a {
+    color: #0a66c2;
+    font-weight: 500;
+}
+.form form input[type=submit] {
+    border: none;
+    cursor: pointer;
+    font-size:17px;
+    padding: 14px;
+    font-family: 500;
+    color: #fff;
+    background-color: #0a66c2;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+.form form input[type=submit]:hover {
+    background-color: #004182;
+}
+.form .or {
+    text-align: center;
+    padding: 0 10px;
+    position: relative;
+    font-size: 18px;
+    color: #333;
+}
+.form .or::before, 
+.form .or::after {
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 2px;
+    background-color: #cbcdd0;
+    top: 10px;
+}
+.form .or::before {
+    left: 10px;
+}
+.form .or::after {
+    right: 10px;
+}
+.form .continu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:  4px 8px ;
+    margin: 20px 10px;
+    border: 1px solid #d7dade;
+    cursor: pointer;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    justify-content: space-between;
+}
+.form .continu img {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.form .continu .user div {
+    margin-right:10px ;
+}
+.form .continu .user {
+    display: flex;
+    align-items: center;
+}
+.form .continu .user p {
+    direction: rtl;
+    font-size: 12px;
+    color: #3c4043;
+    font-weight: 500;
+}
+.form .continu .user small {
+    font-size: 11px;
+    color: #3c4043;
+}
+.form .last {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 300;
+}
+.form .last a {
+    color: #0a66c2;
+    font-weight: 400;
+}
+section .get-help {
+    font-size:16px ;
+    font-weight: 300;
+    padding-top: 20px;
+    padding-bottom:20px ;
+    text-align: center;
+}
+section .get-help a {
+    color: #0a66c2;
+    font-weight: 400;
+}
+footer {
+    margin-top: 20px;
+    background-color:#fff ;
+    padding: 16px 16px 16px 60px;
+}
+footer .last span {
+    margin-left: 10px;
+    font-size: 11px;
+    color: #00000099;
+}
+footer .last a {
+    color: #00000099;
+    padding: 8px;
+    font-size: 12px;
+    font-weight: 500;
+}
+footer .last a:hover {
+    color: #0a66c2;
+}
